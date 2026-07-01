@@ -1,0 +1,132 @@
+<!-- HTML5 Document Declaration -->
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head Section: Contains metadata and page title -->
+
+<head>
+    <title>Great Cliffs of California</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <!-- Main Container: Wraps all page content -->
+    <div class="container">
+
+        <!-- Header Section: Contains logo and main navigation menu -->
+        <header>
+            <img src="images/golden_gate.jpeg" alt="Goldan Gate" width="" 1280" height="564">
+            <div class="main-header">
+                <!-- Logo Area -->
+                <div class="logo">
+                    <img src="images/cliff_ocean.png" alt="Great Cliffs Logo" width="125">
+                </div>
+
+                <!-- Navigation Menu -->
+                <nav class="main-menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Cliffs</a></li>
+                        <li><a href="#">Activities</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Content Section: Contains page title and informational content -->
+        <main>
+            <h1>Contacting Us</h1>
+            <p>If you need more information about the Cliffs, Hours of Operations, Facilities or questions about this
+                site, please contact us bu using one of the following:</p>
+
+            <h2>Phone:</h2>
+            <p>(800) GCLIFFS</p>
+
+            <h2>Email:</h2>
+            <p>info@greatcliffs.com</p>
+
+            <h3>Fill Out This Form:</h3>
+            <form action="/contact" method="post">
+                <label for="name">Enter your full name</label><br>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">Enter your email</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="phone">Enter your phone</label><br>
+                <input type="tel" id="phone" name="phone"><br><br>
+
+                <p>How should we contact you?</p>
+                <input type="radio" id="contact_email" name="contact_method" value="email">
+                <label for="contact_email">Email</label>
+                <input type="radio" id="contact_phone" name="contact_method" value="phone">
+                <label for="contact_phone">Phone</label><br><br>
+
+                <label for="cliff">Which Cliff are you inquiring?</label><br>
+                <select id="cliff" name="cliff">
+                    <option value="west">West Cliff</option>
+                    <option value="north">North Cliff</option>
+                    <option value="east">East Cliff</option>
+                    <option value="south">South Cliff</option>
+                </select><br><br>
+
+                <label for="hear">How did you hear about us:</label><br>
+                <textarea id="hear" name="hear"></textarea><br><br>
+
+                <input type="submit" value="Inquire">
+            </form>
+        </main>
+
+        <!-- Partners Section: Displays list of partner logos/images -->
+        <section>
+            <!-- Partner List: Contains logos for all vendor partners -->
+            <ul id="partners">
+                <!-- Individual Partner Items: Each represents a vendor partner -->
+                <li class="partner">
+                    <div>Partner 1 Image</div>
+                </li>
+                <li class="partner">
+                    <div>Partner 2 Image</div>
+                </li>
+                <li class="partner">
+                    <div>Partner 3 Image</div>
+                </li>
+                <li class="partner">
+                    <div>Partner 4 Image</div>
+                </li>
+                <li class="partner">
+                    <div>Partner 5 Image</div>
+                </li>
+                <li class="partner">
+                    <div>Partner 6 Image</div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Footer Section: Contains copyright, social media links, and disclaimer -->
+        <footer>
+            <!-- Footer Content: Copyright and social media links -->
+            <div id="nondisclaimer">
+                <!-- Copyright Information -->
+                <div class="copy">
+                    &copy; Copyright 2020 :: GreatCliffs.com
+                </div>
+                <!-- Social Media Links -->
+                <div class="social">
+                    <a href="#">Facebook Image</a>
+                    <a href="#">Instagram Image</a>
+                    <a href="#">Twitter Image</a>
+                </div>
+            </div>
+
+            <!-- Disclaimer Section -->
+            <div id="disclaimer">
+                <p>This website is designed and created solely for educational purposes only at Westcliff University.
+                    All contents are not intended for any commercial gain or use.</p>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>

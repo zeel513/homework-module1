@@ -8,3 +8,6 @@
 
 <img width="1279" height="966" alt="Screenshot 2026-07-01 at 1 12 38 PM" src="https://github.com/user-attachments/assets/a6eebe74-2412-4f73-a1bc-bce438b9af90" />
 
+# upadted images
+
+<img width="1279" height="941" alt="Screenshot 2026-07-01 at 1 47 58 PM" src="https://github.com/user-attachments/assets/fce4f5b2-2e70-475a-9092-bdc3e44906d5" />

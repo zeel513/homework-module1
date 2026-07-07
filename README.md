@@ -16,3 +16,9 @@
 
 <img width="1207" height="932" alt="Screenshot 2026-07-07 at 2 33 15 PM" src="https://github.com/user-attachments/assets/5b6cd962-7d40-4b65-8b41-1ea43a0be1f3" />
 
+# week2 day2 homework
+
+<img width="1018" height="989" alt="Screenshot 2026-07-07 at 3 43 44 PM" src="https://github.com/user-attachments/assets/4dd6c259-6c47-4177-8364-cbae1d8382f6" />
+
+<img width="754" height="891" alt="Screenshot 2026-07-07 at 3 44 42 PM" src="https://github.com/user-attachments/assets/bc17c206-da69-42b6-ac9b-8f04942de89c" />
+

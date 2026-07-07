@@ -176,3 +176,89 @@ td:first-child {
     font-weight: bold;
     background: #8de1ff;
 }
+/* --- Contact Form Styles --- */
+main p {
+    line-height: 1.6;
+    margin-bottom: 1.5em;
+}
+
+fieldset {
+    border: 2px solid #ecfab8; /* Matches the footer background color */
+    padding: 2em;
+    margin-top: 1em;
+}
+
+legend {
+    color: #4288C3; /* Blue from the theme */
+    font-weight: bold;
+    font-size: 0.9em;
+    padding: 0 10px;
+}
+
+.form-group {
+    margin-bottom: 1.2em;
+}
+
+/* Make standard labels stack above inputs */
+.form-group label {
+    display: block;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-bottom: 0.3em;
+}
+
+/* Input widths and styling */
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"] {
+    width: 60%;
+    padding: 0.4em;
+    border: 1px solid #ccc;
+}
+
+.form-group textarea {
+    width: 60%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+}
+
+/* Handle groups where elements should stay side-by-side */
+.inline-group label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.inline-group .light-label {
+    font-weight: normal;
+    color: #666;
+}
+
+.inline-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+.inline-group select {
+    padding: 0.2em;
+}
+
+/* Align the submit button to the right of the textarea's width */
+.submit-container {
+    width: 60%; 
+    text-align: right;
+    margin-top: 1em;
+}
+
+.submit-container input[type="submit"] {
+    background-color: #4288C3;
+    color: white;
+    border: none;
+    padding: 0.6em 2em;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.submit-container input[type="submit"]:hover {
+    background-color: #336699;
+}

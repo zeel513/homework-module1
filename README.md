@@ -11,3 +11,8 @@
 # upadted images
 
 <img width="1279" height="941" alt="Screenshot 2026-07-01 at 1 47 58 PM" src="https://github.com/user-attachments/assets/fce4f5b2-2e70-475a-9092-bdc3e44906d5" />
+
+# week2 day1 homework
+
+<img width="1207" height="932" alt="Screenshot 2026-07-07 at 2 33 15 PM" src="https://github.com/user-attachments/assets/5b6cd962-7d40-4b65-8b41-1ea43a0be1f3" />
+
